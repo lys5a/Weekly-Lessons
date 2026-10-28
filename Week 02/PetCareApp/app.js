@@ -8,7 +8,7 @@ const crypto = require('crypto');
 const app = express();
 const PORT = 3000;
 
-app.use(flash());
+app.use(flash()); 
 
 // Set up multer for file uploads
 const storage = multer.diskStorage({
